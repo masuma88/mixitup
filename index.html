@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixitup project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button type="button" class="control" data-filter="all" >***All***</button>
+            <button type="button" class="control" data-filter=".flower" >Flower</button>
+            <button type="button" class="control" data-filter=".doll" >**Doll**</button>
+            <button type="button" class="control" data-filter=".fruits" >*Fruits*</button>
+            <button type="button" class="control" data-filter=".scenery" >Scenery</button>
+            <button type="button" class="control" data-filter=".aquarium" >Aquarium</button>
+        </div>
+        <div class="img-group" id="img">
+            <img class="mix flower" src="img/flow 1.jpg" alt="" width="200px">
+            <img class="mix doll" src="img/doll 2.webp" alt="" width="200px">
+            <img class="mix fruits" src="img/fru 3.jpg" alt="" width="200px">
+            <img class="mix scenery" src="img/sen 4.jpg" alt="" width="200px">
+            <img class="mix aquarium" src="img/aqu 5.jpg" alt="" width="200px">
+            <img class="mix flower" src="img/flow 1.jpg" alt="" width="200px">
+            <img class="mix doll" src="img/doll 2.webp" alt="" width="200px">
+            <img class="mix fruits" src="img/fru 3.jpg" alt="" width="200px">
+            <img class="mix scenery" src="img/sen 4.jpg" alt="" width="200px">
+            <img class="mix aquarium" src="img/aqu 5.jpg" alt="" width="200px">
+            <img class="mix flower" src="img/flow 1.jpg" alt="" width="200px">
+            <img class="mix doll" src="img/doll 2.webp" alt="" width="200px">
+            <img class="mix fruits" src="img/fru 3.jpg" alt="" width="200px">
+            <img class="mix scenery" src="img/sen 4.jpg" alt="" width="200px">
+            <img class="mix aquarium" src="img/aqu 5.jpg" alt="" width="200px">
+            <img class="mix flower" src="img/flow 1.jpg" alt="" width="200px">
+            <img class="mix doll" src="img/doll 2.webp" alt="" width="200px">
+            <img class="mix fruits" src="img/fru 3.jpg" alt="" width="200px">
+            <img class="mix scenery" src="img/sen 4.jpg" alt="" width="200px">
+            <img class="mix aquarium" src="img/aqu 5.jpg" alt="" width="200px">
+           
+        </div>
+    </div>
+
+    <script src="script/mixitup.min.js"></script>
+    <script>
+        var sumi = document.getElementById('img');
+        var mixer = mixitup(sumi);
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 85%;
+    margin: 25px auto 55px;
+    overflow: hidden;
+    background-color: aqua;
+    padding: 30px;
+}
+.controls{
+    width: 40%;
+    margin: 55px auto;
+    display: flex;
+    justify-content: center;
+}
+.control{
+    margin: 0 15px;
+    padding: 15px 20px;
+    background-color: darkorchid;
+    color: azure;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+}
+#img{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    overflow: hidden;
+    grid-template-columns:  auto auto auto auto;
+}
+.mix{
+    height: 250px;
+    margin: 10px;
+}
